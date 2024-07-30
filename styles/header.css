@@ -1,0 +1,49 @@
+.cabecalho {
+    background: var(--degrade);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.imagem__logo {
+    margin: -320px;
+    padding: 20px;
+}
+
+.lista-menu {
+    gap: 3rem;
+    margin-left: 35rem;
+    display: flex;
+}
+
+.lista-menu__item {
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+
+.pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 150%;
+    margin: 0 5em;
+}
+
+.pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+@import url("styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --fonte-principal: "Nunito Sans";
+
+    --vermelho-petvet: #C10402;
+    --vermelho-claro: #F84821;
+    --branco: #FFFFFF;
+    --degrade: linear-gradient(97.54deg, #F84821, #C10402, #3A150D);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
