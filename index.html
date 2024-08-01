@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetVet Farma</title>
     <link rel="shortcut icon" href="assets/logo-petvet.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +16,7 @@
             <img src="assets/logo-petvet-site.png" alt="Logo PetVet Farma" class="imagem__logo">
             <h1 class="titulo">PetVet Farma</h1>
 
-            <div class="div-pesquisa"> 
+            <div class="div-pesquisa">
                 <input type="search" class="pesquisa" placeholder="O que procura para seu pet?">
             </div>
 
@@ -31,6 +32,41 @@
             </ul>
         </div>
     </header>
+    <section class="carrossel">
+        <!-- Slider main container -->
+        <div class="swiper">
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/promocaogolden-petvet.png"
+                        alt="Promoção da ração golden mini bits carne pague 14 leve 15kg"></div>
+                <div class="swiper-slide"><img src="assets/castracaogato-petvet.png"
+                        alt="Mudança do preço de castração de gato"></div>
+                <div class="swiper-slide"><img src="assets/promocaosemana-petvet.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/chemital-petvet.png" alt="Promoção vermífugo chemital"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 
 </html>

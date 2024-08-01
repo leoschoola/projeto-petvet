@@ -7,12 +7,14 @@
     font-family: var(--fonte-principal);
     font-weight: 800;
     color: var(--branco);
+    width: 100%;
 }
 
 .container {
     display: flex;
     align-items: center;
     padding: 1em;
+    
 }
 
 .imagem__logo {
@@ -24,6 +26,7 @@
     gap: 3rem;
     margin-left: 35rem;
     display: flex;
+    
 }
 
 .lista-menu__item {
